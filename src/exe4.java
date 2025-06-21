@@ -17,6 +17,6 @@ public class exe4 {
         } finally {
             System.out.println("END");
         }
-
+        sc.close();
     }
 }

@@ -12,7 +12,9 @@ public class exe3 {
                 break;
             list.add(ten);
         }
+
         System.out.println("DS: ");
         list.forEach(System.out::println);
+        sc.close();
     }
 }

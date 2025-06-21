@@ -8,6 +8,7 @@ public class exe1 {
         System.out.println("Nhap chieu cao: ");
         float height = sc.nextFloat();
         float bmi = weight / (height * height);
+
         if (bmi < 18.5) {
             System.out.println("Gay");
         } else if (bmi < 25) {
@@ -17,5 +18,6 @@ public class exe1 {
         } else {
             System.out.println("Beo phi");
         }
+        sc.close();
     }
 }

@@ -34,5 +34,6 @@ public class ExHashMap {
             String password = entry.getValue();
             System.out.println("Username: " + username + "| Password: " + password);
         }
+        sc.close();
     }
 }

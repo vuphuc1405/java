@@ -38,5 +38,6 @@ public class ExTryCatch {
             System.out.println("Error: " + e.getMessage());
         }
 
+        sc.close();
     }
 }

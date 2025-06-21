@@ -26,9 +26,11 @@ public class ex {
             sc.nextLine();
             list.add(new Student(name, score));
         }
+
         double max = list.stream().mapToDouble(s -> s.score).max().orElse(0);
         System.out.println("Sinh vien co diem cao nhat: ");
         list.stream().filter(s -> s.score == max).forEach(s -> System.out.println(s.name
                 + s.score));
+        sc.close();
     }
 }

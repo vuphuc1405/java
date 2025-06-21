@@ -17,6 +17,7 @@ public class Learn {
             System.out.print("Chọn: ");
             choice = sc.nextInt();
             sc.nextLine(); // Xóa bộ nhớ đệm
+            sc.close();
 
             switch (choice) {
                 case 1:
